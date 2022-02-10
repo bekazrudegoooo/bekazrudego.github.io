@@ -1,0 +1,16 @@
+.xd {
+ position: fixed;
+    top: 45%;
+    left: 35%;
+    animation-name: lol;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes lol{
+    0%{top:45%; transform: scale(1);}
+    25%{top:35%; transform: scale(2);}
+    50%{top:45%; transform: scale(3);}
+    75%{top:55%; transform:  scale(2);}
+    100%{top:45%; transform: scale(1);}
+    
+}
